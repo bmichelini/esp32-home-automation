@@ -27,7 +27,7 @@ Este projeto consiste em um sistema de automação residencial de baixo custo ut
    - DHT sensor library
    - Adafruit Unified Sensor
    - Servo.h
-4. Faça o upload do arquivo `src/22.04maquete_dht_gas_LDR_pir_servo2.ino` para o ESP32.
+4. Faça o upload do arquivo `src/27.04maquete_final.ino` para o ESP32.
 
 ## Licença
 Este projeto está licenciado sob a Licença GNU GPL v3. Veja o arquivo LICENSE para mais detalhes.
