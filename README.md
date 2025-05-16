@@ -55,9 +55,9 @@ Projeto de **automação residencial de baixo custo** utilizando um **ESP32**, s
 2. Configure o suporte ao ESP32:  
    👉 [Tutorial oficial](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html)
 3. Instale as bibliotecas necessárias:
-   - DHT sensor library
+   - DHT sensor library. Instale buscando por [DHT sensor library](https://docs.arduino.cc/libraries/dht-sensor-library/).
    - Adafruit Unified Sensor
-   - ESP32Servo
+   - ESP32Servo. Instale buscando por [ESP32Servo](https://docs.arduino.cc/libraries/esp32servo/).
 4. Abra o arquivo `automacao_esp32_refatorado.ino` e envie para o ESP32.
 5. Acesse o IP exibido no monitor serial para abrir a interface web.
 
