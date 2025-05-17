@@ -9,8 +9,8 @@
 // =========================
 // Rede Wi-Fi
 // =========================
-const char *ssid = "MicheliniDeco";
-const char *password = "michelini1910";
+//const char *ssid = "MicheliniDeco";
+//const char *password = "michelini1910";
 
 // =========================
 // Servo motor da garagem
@@ -58,6 +58,9 @@ const int luzMaster = 23;
 const int luzWcMaster = 13;
 const int luzCloset = 12;
 const int luzFachada = 14; // LDR controla automaticamente
+
+unsigned long ultimaLeitura = 0;
+const unsigned long intervalo = 2000; // a cada 2 segundos
 
 // =========================
 // Arrays com pinos e nomes das luzes
