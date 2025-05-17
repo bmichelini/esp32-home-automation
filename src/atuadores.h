@@ -1,10 +1,10 @@
-// atuadores.h - Funções relacionadas aos atuadores (servo motor, luzes, etc.)
+// atuadores.h - Funções relacionadas aos atuadores (servo motor)
 
 #ifndef ATUADORES_H
 #define ATUADORES_H
 
-#include <Arduino.h>
-#include "config.h"
+#include <Arduino.h> // Biblioteca padrão do Arduino
+#include "config.h"  // Inclui definições de pinos e variáveis globais
 
 // Função para mover o servo motor da garagem para uma posição específica (0 ou 90 graus)
 void moverServo(int destino)

@@ -3,27 +3,26 @@
 #ifndef SENSORES_H
 #define SENSORES_H
 
-#include <Arduino.h>
-#include "config.h"
+#include <Arduino.h> // Biblioteca padrão do Arduino
+#include "config.h"  // Inclui definições de pinos e variáveis globais
 
-bool buzzerAtivo = false;
-unsigned long tempoUltimoBip = 0;
-int contadorBips = 0;
-const int numBips = 4;
-const int duracaoBip = 500;
-bool gasAlarmeAtivo = false;
-unsigned long tempoUltimoTom = 0;
-int etapaTom = 0;
-
+bool buzzerAtivo = false;         // Variável para controlar o estado do buzzer
+unsigned long tempoUltimoBip = 0; // Armazena o tempo do último bip
+int contadorBips = 0;             // Contador de bips emitidos
+const int numBips = 4;            // Número total de bips a serem emitidos
+const int duracaoBip = 500;       // Duração de cada bip em milissegundos
+bool gasAlarmeAtivo = false;      // Variável para controlar o estado do alarme de gás
+unsigned long tempoUltimoTom = 0; // Armazena o tempo do último tom do alarme
+int etapaTom = 0;                 // Variável para controlar a etapa do tom do alarme
 
 // Função para verificar presença de gás e acionar alarme
 void verificarGas()
 {
-    int valorGas = digitalRead(GasD);
+    int valorGas = digitalRead(GasD); // Lê o valor do sensor de gás
 
     if (valorGas == 0 && !gasAlarmeAtivo)
     {
-        Serial.println("Gás: ALERTA! Vazamento detectado!");
+        //Serial.println("Gás: ALERTA! Vazamento detectado!");
         gasAlarmeAtivo = true;
         etapaTom = 0;
         tempoUltimoTom = millis();
@@ -55,16 +54,15 @@ void verificarGas()
     }
 }
 
-
 // Função para verificar o sensor PIR e emitir alerta sonoro em caso de presença
 void verificarPresenca()
 {
     if (sensorPresencaAtivo)
     {
-        bool novaPresenca = digitalRead(PIR_SENSOR);
+        bool novaPresenca = digitalRead(PIR_SENSOR); // Lê o valor do sensor PIR
         if (novaPresenca && !presencaDetectada)
         {
-            Serial.println("PRESENÇA DETECTADA!");
+            //Serial.println("PRESENÇA DETECTADA!");
             // Inicia a sequência de bips
             buzzerAtivo = true;
             tempoUltimoBip = millis();
@@ -90,7 +88,7 @@ void verificarPresenca()
             if (contadorBips % 2 == 0)
                 tone(Buzzer, 1500); // Liga
             else
-                noTone(Buzzer);     // Desliga
+                noTone(Buzzer); // Desliga
 
             if (contadorBips >= numBips * 2)
             {
@@ -101,11 +99,10 @@ void verificarPresenca()
     }
 }
 
-
 // Função para controlar a luz da fachada com base na luminosidade do ambiente
 void atualizarLuzFachada()
 {
-    int valorLDR = analogRead(LDR);
+    int valorLDR = analogRead(LDR);     // Lê o valor do LDR
     bool ligarFachada = valorLDR < 300; // valor de corte ajustável
     digitalWrite(luzFachada, ligarFachada ? HIGH : LOW);
 }
