@@ -58,7 +58,7 @@ Projeto de **automação residencial de baixo custo** utilizando um **ESP32**, s
    👉 [Tutorial oficial](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html)
 3. Instale as bibliotecas necessárias:
    - DHT sensor library. Para mais informações [clique aqui](https://github.com/adafruit/DHT-sensor-library).
-   - Adafruit Unified Sensor. Para mais informações [clique aqui](Mais informações [clique aqui](https://github.com/adafruit/DHT-sensor-library).).
+   - Adafruit Unified Sensor. Para mais informações [clique aqui](https://github.com/adafruit/DHT-sensor-library).
    - WiFiManager. Para mais informações [clique aqui](https://github.com/tzapu/WiFiManager)
    - ESP32Servo. Para mais informações [clique aqui](https://madhephaestus.github.io/ESP32Servo/annotated.html).
 4. Abra o arquivo `automacao_esp32_refatorado.ino` e envie para o ESP32. Garanta que todos os arquivos `.h` estejam na mesma pasta.
