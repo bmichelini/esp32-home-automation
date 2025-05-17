@@ -57,11 +57,11 @@ Projeto de **automação residencial de baixo custo** utilizando um **ESP32**, s
 2. Configure o suporte ao ESP32:  
    👉 [Tutorial oficial](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html)
 3. Instale as bibliotecas necessárias:
-   - DHT sensor library. Instale buscando por [DHT sensor library](https://docs.arduino.cc/libraries/dht-sensor-library/).
-   - Adafruit Unified Sensor.
-   - WiFiManager.
-   - ESP32Servo. Instale buscando por [ESP32Servo](https://docs.arduino.cc/libraries/esp32servo/).
-4. Abra o arquivo `automacao_esp32_refatorado.ino` e envie para o ESP32.
+   - DHT sensor library. Para mais informações [clique aqui](https://github.com/adafruit/DHT-sensor-library).
+   - Adafruit Unified Sensor. Para mais informações [clique aqui](Mais informações [clique aqui](https://github.com/adafruit/DHT-sensor-library).).
+   - WiFiManager. Para mais informações [clique aqui](https://github.com/tzapu/WiFiManager)
+   - ESP32Servo. Para mais informações [clique aqui](https://madhephaestus.github.io/ESP32Servo/annotated.html).
+4. Abra o arquivo `automacao_esp32_refatorado.ino` e envie para o ESP32. Garanta que todos os arquivos `.h` estejam na mesma pasta.
 5. Acesse o IP exibido no monitor serial para abrir a interface web.
 
 ---
@@ -81,50 +81,11 @@ Projeto de **automação residencial de baixo custo** utilizando um **ESP32**, s
 
 ## 📝 Licença
 
-Este projeto está licenciado sob a **Licença GNU GPL v3**. Consulte o arquivo `LICENSE` para mais informações.
+Este projeto está licenciado sob a **[Licença GNU GPL v3](LICENSE)**. Consulte o arquivo para mais informações.
 
 ---
 
 ## 👨‍🎓 Créditos
 
-Projeto desenvolvido como parte de um **Trabalho de Conclusão de Curso (TCC)** voltado à demonstração de conceitos práticos de automação residencial e Internet das Coisas (IoT).
-
-
-<!--
-# ESP32 Home Automation - Maquete
-
-Este projeto consiste em um sistema de automação residencial de baixo custo utilizando um ESP32 e sensores comuns, implementado em uma maquete de MDF cortada a laser.
-
-## Funcionalidades
-- Leitura de temperatura e umidade com DHT11/DHT22
-- Monitoramento de gás (sensor MQ)
-- Medição de luminosidade ambiente (sensor LDR)
-- Detecção de movimento (sensor PIR)
-- Controle de servo motor para abertura de porta/portão
-
-## Tecnologias utilizadas
-- ESP32
-- Arduino IDE
-- Sensores: DHT11, MQ-x, LDR, PIR
-- Servo motor SG90
-
-## Estrutura do Projeto
-- `src/`: Código-fonte Arduino
-- `images/`: Imagens da maquete e esquemas de ligação
-- `docs/`: Documentação adicional (manual de montagem, esquemas eletrônicos, etc.)
-
-## Como executar
-1. Instale a [Arduino IDE](https://www.arduino.cc/en/software)
-2. Configure a IDE para o ESP32, seguindo [este tutorial oficial](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html)
-3. Baixe as bibliotecas necessárias:
-   - DHT sensor library
-   - Adafruit Unified Sensor
-   - Servo.h
-4. Faça o upload do arquivo `src/27.04maquete_final.ino` para o ESP32.
-
-## Licença
-Este projeto está licenciado sob a Licença GNU GPL v3. Veja o arquivo LICENSE para mais detalhes.
-
-## Créditos
-Projeto desenvolvido como parte de um trabalho escolar para demonstração de automação residencial.
--->
+Projeto desenvolvido como parte de um **Trabalho de Conclusão de Curso (TCC)** voltado à demonstração de conceitos práticos de automação residencial e Internet das Coisas (IoT), para a conclusão do curso de **Bacharelado em Ciência da Computação da UNEMAT** - Universidade do Estado de Mato grosso, vinculado ao **Núcleo Pedagógico de Rondonópolis**. Este trabalho foi orientado pelo professor Max Robert Marinho e contou com a contribuição de Fernando Yoiti Obana e Edinaldo Serra Cardoso Júnior.
+Código desenvolvido por [Bruno Michelini](https://github.com/bmichelini) e refatorado por [Lucas Sperotto](https://github.com/sperottolucas).
