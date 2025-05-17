@@ -23,8 +23,10 @@ Projeto de **automação residencial de baixo custo** utilizando um **ESP32**, s
 - **Linguagem C++**
 - Bibliotecas:
   - `WiFi.h` (conexão web)
+  - `WiFiManager.h` (conexão Wi-Fi)
   - `DHT.h` (sensor de temperatura)
   - `ESP32Servo.h` (servo motor)
+  - `Preferences.h` (guardar configurações)
 - Sensores:
   - DHT11
   - MQ-2
@@ -56,7 +58,8 @@ Projeto de **automação residencial de baixo custo** utilizando um **ESP32**, s
    👉 [Tutorial oficial](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html)
 3. Instale as bibliotecas necessárias:
    - DHT sensor library. Instale buscando por [DHT sensor library](https://docs.arduino.cc/libraries/dht-sensor-library/).
-   - Adafruit Unified Sensor
+   - Adafruit Unified Sensor.
+   - WiFiManager.
    - ESP32Servo. Instale buscando por [ESP32Servo](https://docs.arduino.cc/libraries/esp32servo/).
 4. Abra o arquivo `automacao_esp32_refatorado.ino` e envie para o ESP32.
 5. Acesse o IP exibido no monitor serial para abrir a interface web.
