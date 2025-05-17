@@ -87,6 +87,6 @@ Este projeto está licenciado sob a **[Licença GNU GPL v3](LICENSE)**. Consulte
 
 ## 👨‍🎓 Créditos
 
-Projeto desenvolvido como parte de um **Trabalho de Conclusão de Curso (TCC)** voltado à demonstração de conceitos práticos de automação residencial e Internet das Coisas (IoT), para a conclusão do curso de **Bacharelado em Ciência da Computação da UNEMAT** - Universidade do Estado de Mato grosso, vinculado ao **Núcleo Pedagógico de Rondonópolis**. Este trabalho foi orientado pelo professor Max Robert Marinho e contou com a contribuição ddos professores [Lucas Kriesel Sperotto](https://github.com/Lucas-Sperotto), Fernando Yoiti Obana e do aluno de pós graduação Edinaldo Serra Cardoso Júnior.
+Projeto desenvolvido como parte de um **Trabalho de Conclusão de Curso (TCC)** voltado à demonstração de conceitos práticos de automação residencial e Internet das Coisas (IoT), para a conclusão do curso de **Bacharelado em Ciência da Computação da UNEMAT** - Universidade do Estado de Mato grosso, vinculado ao **Núcleo Pedagógico de Rondonópolis**. Este trabalho foi orientado pelo professor Max Robert Marinho e contou com a contribuição do professor [Lucas Kriesel Sperotto](https://github.com/Lucas-Sperotto), do professor Fernando Yoiti Obana e do aluno de pós graduação Edinaldo Serra Cardoso Júnior.
 
 Código desenvolvido por [Bruno Michelini](https://github.com/bmichelini) e refatorado por [Lucas Sperotto](https://github.com/Lucas-Sperotto).
