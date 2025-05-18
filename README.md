@@ -13,6 +13,9 @@ Projeto de **automação residencial de baixo custo** utilizando um **ESP32**, s
 - 🚪 Controle de **portão automatizado** com servo motor (SG90)
 - 💡 Controle de **10 luzes internas** e **1 luz externa automática**
 - 🌐 Interface **web responsiva**, com **monitoramento em tempo real** via JavaScript
+- 🔔 Alarme sonoro para vazamento de gás (alternância automática de tons)
+- 🚨 Alerta sonoro por bipes em caso de detecção de movimento (sensor PIR)
+- 💡 Iluminação da fachada controlada automaticamente pela luminosidade ambiente
 
 ---
 
