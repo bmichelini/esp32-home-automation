@@ -88,6 +88,16 @@ Este projeto está licenciado sob a **[Licença GNU GPL v3](LICENSE)**. Consulte
 
 ---
 
+## 📚 Publicação em Periódico Científico
+
+Este projeto resultou na publicação do seguinte artigo científico:
+
+> MICHELINI, Bruno João; MARINHO, Max Robert; OBANA, Fernando Yoiti; SPEROTTO, Lucas Kriesel; CARDOSO JÚNIOR, Edinaldo Serra. **Desenvolvimento e implementação de automação residencial em maquete utilizando ESP32: comparação de custos com soluções comerciais**. *Revista Caderno Pedagógico*, Curitiba, v. 22, n. 8, p. 01–21, 2025. DOI: [10.54033/cadpedv22n8-058](https://doi.org/10.54033/cadpedv22n8-058).
+
+O artigo descreve a criação de um sistema de automação residencial de baixo custo baseado no ESP32, implementado em maquete física e comparado com soluções comerciais. O estudo demonstra uma economia superior a 95%, validando a proposta para contextos educacionais, acadêmicos e de prototipagem.
+
+---
+
 ## 👨‍🎓 Créditos
 
 Projeto desenvolvido como parte de um **Trabalho de Conclusão de Curso (TCC)** voltado à demonstração de conceitos práticos de automação residencial e Internet das Coisas (IoT), para a conclusão do curso de **Bacharelado em Ciência da Computação da UNEMAT** - Universidade do Estado de Mato grosso, vinculado ao **Núcleo Pedagógico de Rondonópolis**. Este trabalho foi desenvolvido pelo discente Bruno João Michelin, orientado pelo professor [Max Robert Marinho](http://lattes.cnpq.br/3542593918203653) e contou com a contribuição do professor [Lucas Kriesel Sperotto](http://lattes.cnpq.br/2335475405623609), do professor [Fernando Yoiti Obana](http://lattes.cnpq.br/1633968449319130) e do aluno de pós graduação [Edinaldo Serra Cardoso Júnior](http://lattes.cnpq.br/6990476825546492).
